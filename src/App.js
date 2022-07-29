@@ -1,6 +1,8 @@
 import Navigation from "./component/Navbar";
 import Sidebar from "./component/Sidebar";
 import NFTCard from "./component/NFTCards";
+import Crowdfund from "./component/Crowdfund.component";
+import NftHeader from "./component/NftHeader.component";
 
 
 function App() {
@@ -15,16 +17,23 @@ function App() {
 
 
     </section>
-    <section className='centerfold'>
+    <section>
+        <Crowdfund />
+    </section>
+
+    
+  </main>
+  <section className='centerfold'>
+      <NftHeader />
+
 
       <NFTCard />
 
       
 
     </section>
-  </main>
 
-  {/* Alert */}
+
 
 </div>
 

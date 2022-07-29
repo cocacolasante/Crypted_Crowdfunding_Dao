@@ -18,8 +18,8 @@ const Balance = () => {
   
         {/* Deposit/Withdraw Component 1 (DApp) */}
   
-        <div className='exchange__transfers--form'>
-          <div className='flex-between'>
+        <div className=''>
+          <div className=''>
   
           </div>
   
@@ -37,8 +37,8 @@ const Balance = () => {
   
         {/* Deposit/Withdraw Component 2 (mETH) */}
   
-        <div className='exchange__transfers--form'>
-          <div className='flex-between'>
+        <div className=''>
+          <div className=''>
   
           </div>
   
