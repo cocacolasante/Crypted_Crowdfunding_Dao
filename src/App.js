@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from "./component/Navbar";
+import Sidebar from "./component/Sidebar";
+import NFTCard from "./component/NFTCards";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div>
+
+  <Navigation />
+
+  <main className=' grid'>
+    <section className=' exchange exchange__section--left grid'>
+
+      <Sidebar />
+
+
+    </section>
+    <section className='centerfold'>
+
+      <NFTCard />
+
+      {/* Transactions */}
+
+      {/* Trades */}
+
+      {/* OrderBook */}
+
+    </section>
+  </main>
+
+  {/* Alert */}
+
+</div>
+
 }
 
 export default App;
