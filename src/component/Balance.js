@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 const Balance = () => {
 
     return (
@@ -5,8 +7,12 @@ const Balance = () => {
         <div className='component__header flex-between'>
           <h2 className='balance-title' >Balance</h2>
           <div className='tabs'>
-            <button className='tab tab--active'>Deposit</button>
-            <button className='tab'>Withdraw</button>
+          <Button variant="primary" size="sm" active>
+        Withdraw
+      </Button>{' '}
+      <Button variant="secondary" size="sm" active>
+        Deposit
+      </Button>
           </div>
         </div>
   
@@ -19,11 +25,11 @@ const Balance = () => {
   
           <form>
             <label htmlFor="token0"></label>
-            <input type="text" id='token0' placeholder='0.0000' />
+            <input className='input-section' type="text" id='token0' placeholder='0.0000' />
   
-            <button className='button' type='submit'>
-              <span>Transact</span>
-            </button>
+            <Button variant="primary" size="sm">
+          Transact
+        </Button>{' '}
           </form>
         </div>
   
@@ -38,11 +44,11 @@ const Balance = () => {
   
           <form>
             <label htmlFor="token1"></label>
-            <input type="text" id='token1' placeholder='0.0000'/>
+            <input className='input-section' type="text" id='token1' placeholder='0.0000'/>
   
-            <button className='button' type='submit'>
-              <span>Transact</span>
-            </button>
+            <Button variant="primary" size="sm">
+          Transact
+        </Button>{' '}
           </form>
         </div>
   

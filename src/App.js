@@ -19,11 +19,7 @@ function App() {
 
       <NFTCard />
 
-      {/* Transactions */}
-
-      {/* Trades */}
-
-      {/* OrderBook */}
+      
 
     </section>
   </main>
