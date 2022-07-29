@@ -3,7 +3,7 @@ const Balance = () => {
     return (
       <div className='component exchange__transfers'>
         <div className='component__header flex-between'>
-          <h2>Balance</h2>
+          <h2 className='balance-title' >Balance</h2>
           <div className='tabs'>
             <button className='tab tab--active'>Deposit</button>
             <button className='tab'>Withdraw</button>

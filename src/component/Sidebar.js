@@ -10,7 +10,7 @@ function Sidebar() {
     <Container className='sidebar-container'>
       <div>
         <div>
-            <h2>Crypted Coders Token Swap</h2>
+            <h2 className='title' >Crypted Coders Token Swap</h2>
         </div>
         <div>
             <Balance />

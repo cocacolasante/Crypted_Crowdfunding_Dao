@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .exchange{
   height: 100%; 
@@ -9,23 +11,49 @@
   left: 0;
   background-color: #111; 
   overflow-x: hidden; 
-  padding-top: 20px;
+  padding-top: 75px;
   color: grey;
   font-size: 1rem;
 
 }
 
 .navbar-css{
-  position: static;
+  position: fixed;
   z-index: 2;
   overflow-x: hidden; 
+  font-family: 'Montserrat', sans-serif;
+
 
 }
 
 .card-container{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 50px;
+  right: 75px;
+  bottom: 25px;
+  left: 250px;
+  
 }
 
+.title {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.balance-title {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 100px;
+
+}
+
+.individual-card {
+  margin: auto;
+  padding: 5px, 7px;
+}
